@@ -62,7 +62,7 @@ A fault-tolerant and smart email delivery microservice using Node.js, featuring:
 
 1. **Clone the Repository**
    ```sh
-   git clone https://github.com/yourusername/email-service.git
+   git clone (https://github.com/shubhanshu-a32/Email-sending-service-task.git)
    cd email-service
    ```
 
