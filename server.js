@@ -15,6 +15,10 @@ app.get('/', (req, res) => {
     res.send('✅ Email Sending Service is up and running!');
 })
 
+app.get('/send-email', (req, res) => {
+  res.send('❌ Please use POST method on this route with JSON body');
+});
+
 //Email-sending endpoint
 app.post('/send-email', async (req, res) => {
     const {to, subject, body, userId, requestId} = req.body;
